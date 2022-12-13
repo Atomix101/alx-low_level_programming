@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 /*
  *print alpabets
  *Description: use for loop to print small letters
