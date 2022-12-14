@@ -1,9 +1,12 @@
 #include "main.h"
-/*
- *print alpabets
- *Description: use for loop to print small letters
- *retutn:0
+/**
+ *
+ * print_alphabet - Print alphabet in lowercase using only `_putchar`
+ *
+ * Return: 0
+ *
  */
+
 void print_alphabet(void)
 {
 	char c;
@@ -13,9 +16,4 @@ void print_alphabet(void)
 		_putchar(c);
 	}
 	_putchar('\n');
-}
-int main()
-{
-	print_alphabet();
-	return (0);
 }
